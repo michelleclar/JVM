@@ -1,4 +1,4 @@
-package gc;
+package exception.gc;
 
 /**
  * @program: JVM

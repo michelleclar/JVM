@@ -1,4 +1,4 @@
-package gc;
+package exception.gc;
 
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;

@@ -1,4 +1,4 @@
-package gc;
+package exception.gc;
 
 import java.io.IOException;
 import java.util.ArrayList;
