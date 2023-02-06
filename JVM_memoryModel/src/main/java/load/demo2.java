@@ -20,10 +20,10 @@ public class demo2 {
 //        System.out.println(new B[0]);
         // 4. 不会初始化类 B，但会加载 B、A
         ClassLoader cl = Thread.currentThread().getContextClassLoader();
-        cl.loadClass("cn.itcast.jvm.t3.load.B");
+        cl.loadClass("load.B");
 //        // 5. 不会初始化类 B，但会加载 B、A
 //        ClassLoader c2 = Thread.currentThread().getContextClassLoader();
-//        Class.forName("cn.itcast.jvm.t3.load.B", false, c2);
+//        Class.forName("load.B", false, c2);
         System.in.read();
 
 
@@ -34,7 +34,7 @@ public class demo2 {
 //        // 3. 子类访问父类静态变量，只触发父类初始化
 //        System.out.println(B.a);
 //        // 4. 会初始化类 B，并先初始化类 A
-//        Class.forName("cn.itcast.jvm.t3.load.B");
+//        Class.forName("load.B");
 
 
     }
