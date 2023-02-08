@@ -1,4 +1,4 @@
-package jmh.model;
+package model;
 
 /**
  * @program: JVM
