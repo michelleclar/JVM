@@ -10,7 +10,7 @@ import java.io.IOException;
 public class demo1 {
     public static void main(String[] args) throws ClassNotFoundException, IOException {
 //        ClassLoader classloader = Load2.class.getClassLoader();
-//        Class<?> c = classloader.loadClass("cn.itcast.jvm.t3.load.C");
+//        Class<?> c = classloader.loadClass("load.C");
         new C();
         System.in.read();
     }
