@@ -1,4 +1,4 @@
-package exception.gc;
+package gc;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
